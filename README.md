@@ -4,7 +4,7 @@
 ## Looking for a post-doctoral position!!!
 
 # U-Mixer
-The code of U-Mixer: An Unet-Mixer Architecture with Stationarity Correction for Time Series Forecasting (AAAI2024).
+The code of U-Mixer: An Unet-Mixer Architecture with Stationarity Correction for Time Series Forecasting (AAAI2024): https://github.com/XiangMa-Shaun/U-Mixer
 
 data: https://drive.google.com/drive/folders/13Cg1KYOlzM5C7K8gK8NfC-F3EYxkM3D2?usp=sharing or https://pan.baidu.com/s/1r3KhGd0Q9PJIUZdfEYoymg?pwd=i9iy
 

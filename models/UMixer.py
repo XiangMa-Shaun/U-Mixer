@@ -152,7 +152,6 @@ class Model(nn.Module):
         self.mlp_chanmix_mu = nn.ModuleList([channelMix_CI_pat(configs, self.Pnum)
                                             for _ in range(configs.e_layers)])
 
-        self.decomp_multi = series_decomp_multi(configs.decomp_kernel)
         self.mlp_trend_ci = nn.ModuleList(nn.Linear(configs.pred_len, configs.d_model) for _ in range(configs.c_out))
         self.mlp_trend2_ci = nn.ModuleList(nn.Linear(configs.d_model, configs.pred_len) for _ in range(configs.c_out))
 

@@ -69,8 +69,7 @@ python -u run.py \
   --des 'Exp' \
   --d_model 64 \
   --d_ff 64 \
-  --itr 1 \
-  --train_epochs 3
+  --itr 1 
 
 python -u run.py \
   --task_name long_term_forecast \
